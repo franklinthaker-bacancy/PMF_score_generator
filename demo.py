@@ -89,7 +89,7 @@ standard_industry_data: t.Dict[str, t.Any] = {
 }
 
 prompt: str = f"""
-    Please extract company information from the following object and Convert revenue like '15B' to a number (e.g., 15000000000) always and respond only in the strict JSON format shown below:
+    Please extract company information from the following object and Convert revenue like '15B' to a number (e.g., 15000000000) always and respond only in the very strict JSON format shown below:
     {{
       company_name:str = "",
       employee_size:int = 0,
